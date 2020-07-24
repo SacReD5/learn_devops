@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 ENV WF_VERSION 20.0.1.Final
 
-LABEL maitainer="SacReD5"
+LABEL maintainer="SacReD5"
 
 RUN apt-get update \
     && apt-get install default-jdk git maven wget unzip -y \
